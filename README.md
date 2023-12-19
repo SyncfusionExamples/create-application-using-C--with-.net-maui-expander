@@ -3,6 +3,8 @@ This article will guide you, how to create the Expander using C# with .NET MAUI 
 
 Refer the below demo to create expander,
 
+C#
+
   public partial class MainPage : ContentPage
    {
        StackLayout stack;
