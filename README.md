@@ -4,11 +4,12 @@ This article will guide you, how to create the Expander using C# with .NET MAUI 
 Refer the below demo to create expander,
 
 C#
-  public partial class MainPage : ContentPage
-   {
+
+    public partial class MainPage : ContentPage
+    {
        StackLayout stack;
        SfExpander expander1, expander2;
-
+       
        public MainPage()
        {
            InitializeComponent();
@@ -84,4 +85,4 @@ C#
            stack.Children.Add(expander2);
            this.Content = stack;
        }
-   }
+    }
